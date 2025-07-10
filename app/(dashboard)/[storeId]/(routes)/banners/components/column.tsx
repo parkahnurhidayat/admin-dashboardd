@@ -8,7 +8,7 @@ import CellAction from "./cell-action";
 export type BannerColumn = {
   id: string;
   label: string;
-  createdAt: string;
+  createdAt: Date;
 };
 
 export const columns: ColumnDef<BannerColumn>[] = [
